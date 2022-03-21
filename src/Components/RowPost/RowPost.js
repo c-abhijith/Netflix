@@ -45,7 +45,10 @@ function RowPost(props) {
             )}
             
         </div>
+        <div className='youtube'>
+          
         { urlId && <YouTube opts={opts} videoId={urlId.key} /> } 
+        </div>
     </div>
   )
 }

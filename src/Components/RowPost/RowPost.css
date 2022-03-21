@@ -4,13 +4,27 @@
     color: #fff;
 
 }
-.posters{
-    display: flex;
-    padding: 20px;
-    overflow-x:scroll ;
-    overflow-y: hidden;
-
+@media only screen and (max-width: 602px) {
+    .posters{
+        display: flex;
+        padding: 20px;
+        overflow-x:scroll ;
+        width: 139%;
+        overflow-y: hidden;
+    
+    }
+    
 }
+@media only screen and (min-width: 600px) {
+    .posters{
+        display: flex;
+        padding: 20px;
+        overflow-x:scroll ;
+        overflow-y: hidden;
+    
+    }
+}
+
 .posters::-webkit-scrollbar{
     display: none;
 }
