@@ -1,3 +1,30 @@
+@media only screen and (max-width: 400px) {
+    .banner{
+   
+        background-size:cover;
+        
+        height: 1248px;
+        color: white;
+        width: 200%;
+       
+    }
+    .description{
+        width: 20rem;
+        line-height: 1;
+        /* padding-top: 1rem; */
+        font-size:0.5rem ;
+        height: 5   0px;
+        max-width: 360px;
+    
+    }
+    .title{
+        font-size: 2rem;
+        font-weight: 500;
+        padding-top: 0.3rem;
+    }
+}
+
+
 
 @media only screen and (max-width: 600px) {
     .title{
@@ -8,6 +35,7 @@
     .banner{
    
         background-size:contain;
+        
         height: 448px;
         color: white;
         width: 150%;
